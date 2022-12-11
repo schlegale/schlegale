@@ -4,3 +4,20 @@ html, body {
   font-family: 'Roboto', sans-serif;
   background-color: #eee;
 }
+
+.grid-container {
+  display: grid;
+  padding: 1.5rem;
+  gap: 1.5rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid-element {
+  background-color: #277BC0;
+  color: #eee;
+}
+.grid-col-span-2 {
+  grid-column: span 2;
+}
+.grid-col-span-3 {
+  grid-column: span 3;
+}
